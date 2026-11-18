@@ -10,9 +10,9 @@ Full project code: https://github.com/gaurav-2030/PathSnap
 | Member | Area | Main files |
 |---|---|---|
 | Gaurav Girish (PES1UG24AM103) | Data exploration, documentation | `scripts/01_explore_dataset.py`, `docs/DATA_EXPLORATION.md` |
-| MEMBER_2_NAME (SRN) | Model experimentation and Bayesian optimisation | `scripts/03_train_models.py`, `scripts/04_bayes_opt.py`, `scripts/08_results_summary.py`, `docs/MODELS_AND_TUNING.md` |
+| Gonu Guntla Hema Kowshik (PES1UG24AM106) | Model experimentation and Bayesian optimisation | `scripts/03_train_models.py`, `scripts/04_bayes_opt.py`, `scripts/08_results_summary.py`, `docs/MODELS_AND_TUNING.md` |
 | Gaurav Shivakumar (PES1UG24AM104) | FastAPI service, UI and two-laptop deployment | `api/main.py`, `ui/index.html`, `scripts/check_api.py`, `docs/DEPLOYMENT.md` |
-| MEMBER_4_NAME (SRN) | Candidate generation, HMM/Viterbi decoder, tests | `pathsnap/core.py`, `scripts/05_hmm_viterbi.py`, `tests/test_core.py`, `docs/HMM_VITERBI.md` |
+| Gayathri Priya V (PES1UG24AM105) | Candidate generation, HMM/Viterbi decoder, tests | `pathsnap/core.py`, `scripts/05_hmm_viterbi.py`, `tests/test_core.py`, `docs/HMM_VITERBI.md` |
 
 ## Documentation
 - [Data exploration](docs/DATA_EXPLORATION.md)
