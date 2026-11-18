@@ -1,0 +1,90 @@
+$ curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -d '{"trip_id": "00000056"}'
+{
+ "trip_id": "00000056",
+ "n_observations": 3958,
+ "n_candidates": 42556,
+ "predicted_arc_ids": [
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  11136,
+  8059,
+  "... (3958 values)"
+ ],
+ "predicted_route_arcs": [
+  11136,
+  8059,
+  12101,
+  9118,
+  24866,
+  24864,
+  24862,
+  24860,
+  18419,
+  18420,
+  24833,
+  24828,
+  "..."
+ ],
+ "predicted_route_segments": [
+  [
+   [
+    44.86503,
+    -93.350174
+   ],
+   [
+    44.862741,
+    -93.350215
+   ]
+  ],
+  [
+   [
+    44.862741,
+    -93.350215
+   ],
+   [
+    44.862,
+    -93.350174
+   ]
+  ],
+  "..."
+ ],
+ "gps_points": [
+  [
+   44.864956,
+   -93.350209
+  ],
+  [
+   44.86454,
+   -93.350135
+  ],
+  [
+   44.864052,
+   -93.35012
+  ],
+  "..."
+ ],
+ "metrics": {
+  "top1_accuracy_hmm": 0.9621020717534108,
+  "top1_accuracy_classifier_only": 0.9196563921172309,
+  "route_precision": 0.9773895169578622,
+  "route_recall": 0.8904494382022472,
+  "route_f1": 0.9318961293483585
+ },
+ "route_continuity": 0.9997472832954258,
+ "chain_breaks": 0,
+ "timing_s": {
+  "classifier_s": 0.238,
+  "viterbi_s": 0.329,
+  "total_s": 0.567,
+  "total_request": 0.866
+ },
+ "model": "HistGradientBoosting (Bayesian-tuned)"
+}

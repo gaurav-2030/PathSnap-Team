@@ -1,0 +1,3 @@
+partition,trips,observations,mean_obs,route_arcs,total_route_km
+student_test,10,19160,1916.0,3477,248.12141847178964
+train,80,208417,2605.2125,31336,2228.977523823704

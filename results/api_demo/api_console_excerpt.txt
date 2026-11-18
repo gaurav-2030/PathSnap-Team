@@ -1,0 +1,42 @@
+$ PATHSNAP_TRIPS_DIR=data/raw/student_test uvicorn api.main:app --host 0.0.0.0 --port 8000
+2026-11-18 11:40:13 | INFO | model loaded: HistGradientBoosting (Bayesian-tuned) | HMM {'beta': 2.0, 'emis_w': 1.0, 'gap_s': 60.0} | trips dir: /Users/gaurav/Desktop/PathSnap/data/raw/student_test
+INFO:     Started server process [16789]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-18 11:40:13 | INFO | GET /health from 127.0.0.1 -> 200 (2 ms)
+...
+2026-11-18 11:43:12 | INFO | POST /predict from 127.0.0.1 -> 200 (124 ms)
+INFO:     127.0.0.1:50362 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:12 | INFO | PREDICT trip=00000009 received
+2026-11-18 11:43:12 | INFO | PREDICT trip=00000009 obs=1049 candidates=15293 route_arcs=378 acc_hmm=0.9237 acc_clf=0.8904 continuity=0.9990 time=0.34s
+2026-11-18 11:43:12 | INFO | POST /predict from 127.0.0.1 -> 200 (345 ms)
+INFO:     127.0.0.1:50364 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:12 | INFO | PREDICT trip=00000040 received
+2026-11-18 11:43:13 | INFO | PREDICT trip=00000040 obs=2995 candidates=16188 route_arcs=313 acc_hmm=0.9519 acc_clf=0.9316 continuity=1.0000 time=0.44s
+2026-11-18 11:43:13 | INFO | POST /predict from 127.0.0.1 -> 200 (443 ms)
+INFO:     127.0.0.1:50366 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:13 | INFO | PREDICT trip=00000052 received
+2026-11-18 11:43:13 | INFO | PREDICT trip=00000052 obs=262 candidates=2427 route_arcs=83 acc_hmm=1.0000 acc_clf=0.9885 continuity=1.0000 time=0.07s
+2026-11-18 11:43:13 | INFO | POST /predict from 127.0.0.1 -> 200 (70 ms)
+INFO:     127.0.0.1:50368 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:13 | INFO | PREDICT trip=00000056 received
+2026-11-18 11:43:14 | INFO | PREDICT trip=00000056 obs=3958 candidates=42556 route_arcs=1191 acc_hmm=0.9621 acc_clf=0.9197 continuity=0.9997 time=0.88s
+2026-11-18 11:43:14 | INFO | POST /predict from 127.0.0.1 -> 200 (889 ms)
+INFO:     127.0.0.1:50370 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:14 | INFO | PREDICT trip=00000065 received
+2026-11-18 11:43:14 | INFO | PREDICT trip=00000065 obs=768 candidates=9981 route_arcs=140 acc_hmm=0.9102 acc_clf=0.8932 continuity=1.0000 time=0.29s
+2026-11-18 11:43:14 | INFO | POST /predict from 127.0.0.1 -> 200 (295 ms)
+INFO:     127.0.0.1:50372 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:14 | INFO | PREDICT trip=00000076 received
+2026-11-18 11:43:15 | INFO | PREDICT trip=00000076 obs=1486 candidates=22861 route_arcs=337 acc_hmm=0.9892 acc_clf=0.9300 continuity=0.9993 time=1.24s
+2026-11-18 11:43:15 | INFO | POST /predict from 127.0.0.1 -> 200 (1242 ms)
+INFO:     127.0.0.1:50374 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:15 | INFO | PREDICT trip=00000077 received
+2026-11-18 11:43:16 | INFO | PREDICT trip=00000077 obs=3911 candidates=45665 route_arcs=326 acc_hmm=0.8341 acc_clf=0.8006 continuity=1.0000 time=0.56s
+2026-11-18 11:43:16 | INFO | POST /predict from 127.0.0.1 -> 200 (565 ms)
+INFO:     127.0.0.1:50376 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 11:43:16 | INFO | PREDICT trip=00000091 received
+2026-11-18 11:43:16 | INFO | PREDICT trip=00000091 obs=874 candidates=10712 route_arcs=180 acc_hmm=0.9577 acc_clf=0.9153 continuity=1.0000 time=0.24s
+2026-11-18 11:43:16 | INFO | POST /predict from 127.0.0.1 -> 200 (246 ms)
+INFO:     127.0.0.1:50378 - "POST /predict HTTP/1.1" 200 OK

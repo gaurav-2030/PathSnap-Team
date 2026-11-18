@@ -1,0 +1,9 @@
+# raw and derived data (provided separately, large)
+data/raw/*/*
+!data/raw/*/.gitkeep
+data/processed/
+logs/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

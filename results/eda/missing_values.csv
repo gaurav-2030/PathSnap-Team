@@ -1,0 +1,9 @@
+partition,file,files,rows,invalid_rows
+student_test,arcs,10,185041,0
+student_test,nodes,10,90689,0
+student_test,route,10,3477,0
+student_test,track,10,19160,0
+train,arcs,80,3876904,0
+train,nodes,80,1933485,0
+train,route,80,31336,0
+train,track,80,208417,0

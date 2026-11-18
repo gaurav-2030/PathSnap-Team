@@ -1,0 +1,50 @@
+{
+ "model_file": "HGB_tuned.joblib",
+ "model_name": "HistGradientBoosting (Bayesian-tuned)",
+ "features": [
+  "dist",
+  "dist_rank",
+  "dist_minus_min",
+  "dist_ratio",
+  "n_cand",
+  "cand_frac_closer",
+  "head_cos",
+  "head_valid",
+  "speed",
+  "proj_t",
+  "off_end",
+  "arc_len",
+  "ctx_dist_mean",
+  "ctx_dist_max",
+  "d_prev",
+  "d_next",
+  "ctx_head_cos",
+  "out_deg_v",
+  "in_deg_u",
+  "two_way",
+  "dt_prev",
+  "dt_next"
+ ],
+ "cand_radius": 50.0,
+ "cand_k": 20,
+ "hmm": {
+  "beta": 2.0,
+  "emis_w": 1.0,
+  "gap_s": 60.0
+ },
+ "gaussian_sigma_m": 7.2658931911468505,
+ "classifier_params": {
+  "learning_rate": 0.07310674609671276,
+  "max_iter": 500,
+  "max_leaf_nodes": 114,
+  "early_stopping": true,
+  "validation_fraction": 0.1,
+  "scoring": "loss",
+  "n_iter_no_change": 20,
+  "random_state": 42,
+  "min_samples_leaf": 11,
+  "l2_regularization": 0.016199041614362742,
+  "max_features": 0.47949521455281313,
+  "max_depth": 16
+ }
+}
